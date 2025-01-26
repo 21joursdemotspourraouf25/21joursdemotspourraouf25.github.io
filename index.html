@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 Jours de Mots pour Raouf - 25 ans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>21 Jours de Mots pour Raouf - 25 ans</h1>
+        <p>Un cadeau spécial pour son anniversaire : 21 épisodes, 21 messages.</p>
+    </header>
+
+    <section id="message-anniversaire">
+        <h2>Message d'Anniversaire</h2>
+        <div class="message">
+            <img src="photo_raouf.jpg" alt="Photo de Raouf" class="photo">
+            <p>Raouf, en ce jour spécial, nous voulons te dire combien tu es cher à nos cœurs. À travers ces 21 jours, nous voulons célébrer chaque moment passé à tes côtés. Joyeux anniversaire, et que les 25 ans soient encore plus merveilleux que tout ce que tu as vécu.</p>
+        </div>
+    </section>
+
+    <section id="episodes">
+        <h2>Épisodes du Podcast</h2>
+        <ul>
+            <!-- Exemple pour un épisode -->
+            <li>
+                <h3>Jour 1 : Le début du voyage</h3>
+                <audio controls>
+                    <source src="episode1.mp3" type="audio/mpeg">
+                    Votre navigateur ne prend pas en charge l'élément audio.
+                </audio>
+            </li>
+            <!-- Ajouter d'autres épisodes ici -->
+        </ul>
+    </section>
+
+    <section id="messages">
+        <h2>Laissez un message pour Raouf</h2>
+        <form action="/submit-message" method="POST">
+            <textarea name="message" placeholder="Votre message pour Raouf..." required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Site créé avec amour pour Raouf par ses proches.</p>
+    </footer>
+</body>
+</html>
